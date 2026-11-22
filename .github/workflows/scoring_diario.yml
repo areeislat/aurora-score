@@ -1,0 +1,24 @@
+name: Scoring diario AURORA SCORE
+on:
+  schedule:
+    - cron: "0 11 * * *"      # 08:00 hora de Chile (UTC-3)
+  workflow_dispatch: {}        # ejecución manual desde la pestaña Actions
+permissions:
+  contents: write
+jobs:
+  scoring:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.13" }
+      - run: pip install -r requirements.txt
+      - name: Ejecutar scoring por lotes y control de drift
+        run: python src/scoring_batch.py --entrada data/nuevas_solicitudes.csv --salida reports/
+      - name: Publicar resultados en el repositorio
+        run: |
+          git config user.name "aurora-bot"
+          git config user.email "aurora-bot@users.noreply.github.com"
+          git add reports/
+          git commit -m "Scoring diario $(date +%F)" || echo "Sin cambios"
+          git push
