@@ -1,0 +1,12 @@
+{
+  "fecha": "20261122",
+  "solicitudes": 200,
+  "decisiones": {
+    "Aprobar": 123,
+    "Revisión humana": 48,
+    "Rechazar": 29
+  },
+  "psi_max": 0.2332,
+  "variables_en_alerta": {},
+  "estado_drift": "VIGILAR"
+}

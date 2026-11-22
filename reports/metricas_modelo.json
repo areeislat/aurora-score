@@ -1,0 +1,77 @@
+{
+  "modelos": {
+    "LR original": {
+      "AUC": 0.7185,
+      "Gini": 0.4371,
+      "KS": 0.3433,
+      "Mora en aprobados": 0.0624,
+      "Aprobación automática": 0.7,
+      "Impacto dispar mínimo": 0.7073
+    },
+    "GB original": {
+      "AUC": 0.7161,
+      "Gini": 0.4321,
+      "KS": 0.3361,
+      "Mora en aprobados": 0.0619,
+      "Aprobación automática": 0.7,
+      "Impacto dispar mínimo": 0.7345
+    },
+    "LR mitigado": {
+      "AUC": 0.7078,
+      "Gini": 0.4156,
+      "KS": 0.3049,
+      "Mora en aprobados": 0.0667,
+      "Aprobación automática": 0.7,
+      "Impacto dispar mínimo": 0.7729
+    },
+    "GB mitigado": {
+      "AUC": 0.7128,
+      "Gini": 0.4256,
+      "KS": 0.3133,
+      "Mora en aprobados": 0.0662,
+      "Aprobación automática": 0.7,
+      "Impacto dispar mínimo": 0.8234
+    }
+  },
+  "impacto_dispar": {
+    "LR original": {
+      "Mujeres vs hombres": 0.9283,
+      "Rural vs urbana": 0.7073,
+      "Mayores de 60 vs resto": 0.7406,
+      "Mujer informal vs resto": 0.842
+    },
+    "GB original": {
+      "Mujeres vs hombres": 0.9184,
+      "Rural vs urbana": 0.7345,
+      "Mayores de 60 vs resto": 0.7718,
+      "Mujer informal vs resto": 0.8684
+    },
+    "LR mitigado": {
+      "Mujeres vs hombres": 0.9628,
+      "Rural vs urbana": 0.7729,
+      "Mayores de 60 vs resto": 0.8135,
+      "Mujer informal vs resto": 0.9065
+    },
+    "GB mitigado": {
+      "Mujeres vs hombres": 0.9164,
+      "Rural vs urbana": 0.8234,
+      "Mayores de 60 vs resto": 0.8344,
+      "Mujer informal vs resto": 0.8722
+    }
+  },
+  "cortes": {
+    "aprobar": 0.10786950658504993,
+    "rechazar": 0.17144870604071166
+  },
+  "campeon": "GB mitigado",
+  "auc_cv": {
+    "Regresión logística": [
+      0.7483,
+      0.021
+    ],
+    "Gradient boosting": [
+      0.7377,
+      0.0177
+    ]
+  }
+}
