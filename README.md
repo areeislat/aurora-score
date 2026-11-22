@@ -30,8 +30,7 @@ gestion/         AURORA_SCORE_seguimiento_control.xlsx (seguimiento, valor ganad
 ```
 
 ## Cómo ejecutar
-**Google Colab:** abrir `notebooks/AURORA_SCORE_modelo_v1.ipynb` desde GitHub (Archivo → Abrir cuaderno → GitHub),
-reemplazar `USUARIO` en la primera celda por el usuario de este repositorio y ejecutar todo.
+**Google Colab:** abrir el enlace de Colab de abajo y ejecutar todo (Entorno de ejecución → Ejecutar todas).
 
 **Local:**
 ```bash
@@ -46,5 +45,5 @@ El caso de estudio no entrega datos. El dataset es **sintético**, generado por 
 para replicar la cartera piloto, las fuentes, las tasas y los sesgos descritos en el caso. No contiene datos de personas reales.
 
 ## Enlaces
-- Tablero de gestión (Trello): _pegar enlace_
-- Notebook en Colab: _pegar enlace_
+- Tablero de gestión (Trello): https://trello.com/b/sd2LHARo
+- Notebook en Colab: https://colab.research.google.com/github/areeislat/aurora-score/blob/main/notebooks/AURORA_SCORE_modelo_v1.ipynb
