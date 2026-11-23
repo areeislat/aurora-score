@@ -35,14 +35,14 @@ def d(s):
 ws = wb.active; ws.title = "Indice"; ws.sheet_view.showGridLines = False
 ws["A1"] = "AURORA SCORE — Seguimiento y control del proyecto"; ws["A1"].font = T
 ws["A2"] = "Vertex Financial Group · Equipo: Areliz Isla y Daniela Montefinale · Corte de estado: viernes 20-11-2026 (semana 25 del proyecto)"; ws["A2"].font = ST
-idx = [("Plan_LB_v2", "Línea base v2 por releases (CR-01) e hitos"), ("Seguimiento", "Tareas planificadas vs ejecutadas, responsables, fechas, dependencias y desviación en días"),
+idx = [("Plan_LB_v2", "Línea base v2 por releases (CR-01) e hitos"), ("Gantt", "Carta Gantt de la Release 1: plan vs real"), ("Seguimiento", "Tareas planificadas vs ejecutadas, responsables, fechas, dependencias y desviación en días"),
        ("Semana_simulada", "Semana 16–20 nov con eventos inesperados (Guía 3.2)"), ("Valor_ganado", "PV, EV, AC, SPI, CPI y proyección EAC de la Release 1"),
        ("Reporte_estado", "Reporte de estado para stakeholders (semáforo)"), ("Acciones_correctivas", "Acciones derivadas del análisis de desviaciones"),
        ("Control_cambios", "Registro de solicitudes de cambio"), ("Riesgos", "Actualización del registro de riesgos"),
        ("Flujo_caja", "Flujo de caja anual Año 0–5 (Alt. A) con fórmulas + sensibilidad"), ("Presupuesto_18m", "Presupuesto del horizonte de 18 meses cuadrado con el flujo de caja")]
 for i, (h, dsc) in enumerate(idx, 4):
     ws.cell(i, 1, h).font = BB; ws.cell(i, 2, dsc).font = B
-ws["A16"] = "Convención de colores: texto azul = dato de entrada; negro = fórmula; fondo amarillo = supuesto clave."; ws["A16"].font = ST
+ws["A17"] = "Convención de colores: texto azul = dato de entrada; negro = fórmula; fondo amarillo = supuesto clave."; ws["A17"].font = ST
 ws.column_dimensions["A"].width = 24; ws.column_dimensions["B"].width = 95
 
 # 1. Plan LB v2
@@ -236,4 +236,9 @@ fila(ws, 12, ["Flujo acumulado al M18", "", "Ingresos − egresos − impuestos 
 ws["A14"] = "Coherencia: el equipo de 8 personas y el costo cloud se pagan desde el go-live del MVP (M7), que es cuando el flujo de caja registra los 45.000 créditos del Año 1."; ws["A14"].font = ST
 ws["A15"] = "Observación al caso: evaluar 4,8 M de personas en 18 meses con ~45.000 créditos en el Año 1 implica una tasa de aprobación < 1%; lo interpretamos como pre-scoring masivo de bases de operadoras, no como solicitudes."; ws["A15"].font = ST
 
+ws = wb.create_sheet("Gantt", 3); ws.sheet_view.showGridLines = False
+ws["A1"] = "Carta Gantt Release 1 — planificado vs. ejecutado (corte 20-11-2026)"; ws["A1"].font = T
+ws["A2"] = "Generada desde la hoja Seguimiento con gestion/gantt.py. Barras claras = plan; azules = real; ámbar = en curso; naranjo = imprevistos."; ws["A2"].font = ST
+from openpyxl.drawing.image import Image as XLImage
+im = XLImage("reports/figures/fig10_gantt_plan_vs_real.png"); im.width, im.height = 1150, 814; ws.add_image(im, "A4")
 wb.save("gestion/AURORA_SCORE_seguimiento_control.xlsx"); print("ok")
