@@ -1,0 +1,201 @@
+id_solicitud,prob_incumplimiento,decision,motivos,version_modelo
+SOL-0001,0.1165,Revisión humana,uso de billetera digital; atrasos en pago de servicios básicos; historial en servicios básicos,GB mitigado v1.0.0
+SOL-0002,0.0645,Aprobar,—,GB mitigado v1.0.0
+SOL-0003,0.1432,Revisión humana,reclamos en comercio electrónico; atrasos en pago de servicios básicos; cambios del monto solicitado,GB mitigado v1.0.0
+SOL-0004,0.0412,Aprobar,—,GB mitigado v1.0.0
+SOL-0005,0.1426,Revisión humana,antigüedad de cuenta en redes (opt-in); uso de billetera digital; atrasos en pago de servicios básicos,GB mitigado v1.0.0
+SOL-0006,0.1136,Revisión humana,atrasos en pago de servicios básicos; antigüedad de la línea móvil; uso de billetera digital,GB mitigado v1.0.0
+SOL-0007,0.0318,Aprobar,—,GB mitigado v1.0.0
+SOL-0008,0.0491,Aprobar,—,GB mitigado v1.0.0
+SOL-0009,0.0445,Aprobar,—,GB mitigado v1.0.0
+SOL-0010,0.1303,Revisión humana,atrasos en pago de servicios básicos; reclamos en comercio electrónico; uso de billetera digital,GB mitigado v1.0.0
+SOL-0011,0.0549,Aprobar,—,GB mitigado v1.0.0
+SOL-0012,0.3869,Rechazar,atrasos en pago de servicios básicos; cambios del monto solicitado; uso de billetera digital,GB mitigado v1.0.0
+SOL-0013,0.0714,Aprobar,—,GB mitigado v1.0.0
+SOL-0014,0.0677,Aprobar,—,GB mitigado v1.0.0
+SOL-0015,0.0147,Aprobar,—,GB mitigado v1.0.0
+SOL-0016,0.2588,Rechazar,cambios del monto solicitado; uso de billetera digital; puntualidad en servicios básicos,GB mitigado v1.0.0
+SOL-0017,0.0545,Aprobar,—,GB mitigado v1.0.0
+SOL-0018,0.0565,Aprobar,—,GB mitigado v1.0.0
+SOL-0019,0.0628,Aprobar,—,GB mitigado v1.0.0
+SOL-0020,0.0314,Aprobar,—,GB mitigado v1.0.0
+SOL-0021,0.1091,Revisión humana,cambios del monto solicitado; uso de billetera digital; puntualidad en servicios básicos,GB mitigado v1.0.0
+SOL-0022,0.0634,Aprobar,—,GB mitigado v1.0.0
+SOL-0023,0.0368,Aprobar,—,GB mitigado v1.0.0
+SOL-0024,0.0249,Aprobar,—,GB mitigado v1.0.0
+SOL-0025,0.1122,Revisión humana,uso de billetera digital; antigüedad de la línea móvil; puntualidad en servicios básicos,GB mitigado v1.0.0
+SOL-0026,0.1035,Aprobar,—,GB mitigado v1.0.0
+SOL-0027,0.0877,Aprobar,—,GB mitigado v1.0.0
+SOL-0028,0.3142,Rechazar,atrasos en pago de servicios básicos; reclamos en comercio electrónico; cambios del monto solicitado,GB mitigado v1.0.0
+SOL-0029,0.065,Aprobar,—,GB mitigado v1.0.0
+SOL-0030,0.0771,Aprobar,—,GB mitigado v1.0.0
+SOL-0031,0.028,Aprobar,—,GB mitigado v1.0.0
+SOL-0032,0.0471,Aprobar,—,GB mitigado v1.0.0
+SOL-0033,0.0324,Aprobar,—,GB mitigado v1.0.0
+SOL-0034,0.2406,Rechazar,atrasos en pago de servicios básicos; tiempo de llenado del formulario; uso de billetera digital,GB mitigado v1.0.0
+SOL-0035,0.1465,Revisión humana,reclamos en comercio electrónico; uso de billetera digital; puntualidad en servicios básicos,GB mitigado v1.0.0
+SOL-0036,0.0547,Aprobar,—,GB mitigado v1.0.0
+SOL-0037,0.1188,Revisión humana,cambios del monto solicitado; monto solicitado; uso de billetera digital,GB mitigado v1.0.0
+SOL-0038,0.3118,Rechazar,cambios del monto solicitado; reclamos en comercio electrónico; monto solicitado,GB mitigado v1.0.0
+SOL-0039,0.2422,Rechazar,reclamos en comercio electrónico; atrasos en pago de servicios básicos; uso de billetera digital,GB mitigado v1.0.0
+SOL-0040,0.1122,Revisión humana,cambios del monto solicitado; antigüedad de la línea móvil; puntualidad en servicios básicos,GB mitigado v1.0.0
+SOL-0041,0.0603,Aprobar,—,GB mitigado v1.0.0
+SOL-0042,0.1007,Aprobar,—,GB mitigado v1.0.0
+SOL-0043,0.1011,Aprobar,—,GB mitigado v1.0.0
+SOL-0044,0.063,Aprobar,—,GB mitigado v1.0.0
+SOL-0045,0.3037,Rechazar,atrasos en pago de servicios básicos; uso de billetera digital; tasa de devoluciones,GB mitigado v1.0.0
+SOL-0046,0.0482,Aprobar,—,GB mitigado v1.0.0
+SOL-0047,0.0485,Aprobar,—,GB mitigado v1.0.0
+SOL-0048,0.0305,Aprobar,—,GB mitigado v1.0.0
+SOL-0049,0.0478,Aprobar,—,GB mitigado v1.0.0
+SOL-0050,0.1741,Rechazar,cambios del monto solicitado; uso de billetera digital; puntualidad en servicios básicos,GB mitigado v1.0.0
+SOL-0051,0.1342,Revisión humana,atrasos en pago de servicios básicos; puntualidad del plan móvil; historial en servicios básicos,GB mitigado v1.0.0
+SOL-0052,0.1116,Revisión humana,atrasos en pago de servicios básicos; plazo; antigüedad de cuenta en redes (opt-in),GB mitigado v1.0.0
+SOL-0053,0.02,Aprobar,—,GB mitigado v1.0.0
+SOL-0054,0.1848,Rechazar,reclamos en comercio electrónico; plazo; puntualidad en servicios básicos,GB mitigado v1.0.0
+SOL-0055,0.0244,Aprobar,—,GB mitigado v1.0.0
+SOL-0056,0.1444,Revisión humana,atrasos en pago de servicios básicos; uso de billetera digital; plazo,GB mitigado v1.0.0
+SOL-0057,0.1299,Revisión humana,cambios del monto solicitado; puntualidad en servicios básicos; uso previo de la app,GB mitigado v1.0.0
+SOL-0058,0.0471,Aprobar,—,GB mitigado v1.0.0
+SOL-0059,0.0825,Aprobar,—,GB mitigado v1.0.0
+SOL-0060,0.0352,Aprobar,—,GB mitigado v1.0.0
+SOL-0061,0.0727,Aprobar,—,GB mitigado v1.0.0
+SOL-0062,0.0842,Aprobar,—,GB mitigado v1.0.0
+SOL-0063,0.0117,Aprobar,—,GB mitigado v1.0.0
+SOL-0064,0.095,Aprobar,—,GB mitigado v1.0.0
+SOL-0065,0.0995,Aprobar,—,GB mitigado v1.0.0
+SOL-0066,0.0214,Aprobar,—,GB mitigado v1.0.0
+SOL-0067,0.0324,Aprobar,—,GB mitigado v1.0.0
+SOL-0068,0.0856,Aprobar,—,GB mitigado v1.0.0
+SOL-0069,0.0977,Aprobar,—,GB mitigado v1.0.0
+SOL-0070,0.0342,Aprobar,—,GB mitigado v1.0.0
+SOL-0071,0.097,Aprobar,—,GB mitigado v1.0.0
+SOL-0072,0.0853,Aprobar,—,GB mitigado v1.0.0
+SOL-0073,0.7623,Rechazar,atrasos en pago de servicios básicos; cambios del monto solicitado; uso de billetera digital,GB mitigado v1.0.0
+SOL-0074,0.154,Revisión humana,uso de billetera digital; tiempo de llenado del formulario; plazo,GB mitigado v1.0.0
+SOL-0075,0.2232,Rechazar,reclamos en comercio electrónico; cambios del monto solicitado; puntualidad en servicios básicos,GB mitigado v1.0.0
+SOL-0076,0.0698,Aprobar,—,GB mitigado v1.0.0
+SOL-0077,0.1867,Rechazar,reclamos en comercio electrónico; atrasos en pago de servicios básicos; puntualidad del plan móvil,GB mitigado v1.0.0
+SOL-0078,0.2325,Rechazar,cambios del monto solicitado; uso de billetera digital; tiempo de llenado del formulario,GB mitigado v1.0.0
+SOL-0079,0.0511,Aprobar,—,GB mitigado v1.0.0
+SOL-0080,0.0278,Aprobar,—,GB mitigado v1.0.0
+SOL-0081,0.0998,Aprobar,—,GB mitigado v1.0.0
+SOL-0082,0.1585,Revisión humana,atrasos en pago de servicios básicos; historial en servicios básicos; plazo,GB mitigado v1.0.0
+SOL-0083,0.0199,Aprobar,—,GB mitigado v1.0.0
+SOL-0084,0.1428,Revisión humana,uso de billetera digital; tiempo de llenado del formulario; plazo,GB mitigado v1.0.0
+SOL-0085,0.0307,Aprobar,—,GB mitigado v1.0.0
+SOL-0086,0.1674,Revisión humana,reclamos en comercio electrónico; uso de billetera digital; antigüedad de cuenta en redes (opt-in),GB mitigado v1.0.0
+SOL-0087,0.0529,Aprobar,—,GB mitigado v1.0.0
+SOL-0088,0.108,Revisión humana,plazo; puntualidad en servicios básicos; historial en servicios básicos,GB mitigado v1.0.0
+SOL-0089,0.0853,Aprobar,—,GB mitigado v1.0.0
+SOL-0090,0.0581,Aprobar,—,GB mitigado v1.0.0
+SOL-0091,0.1378,Revisión humana,atrasos en pago de servicios básicos; antigüedad de la línea móvil; uso de billetera digital,GB mitigado v1.0.0
+SOL-0092,0.1163,Revisión humana,antigüedad de cuenta en redes (opt-in); plazo; puntualidad en servicios básicos,GB mitigado v1.0.0
+SOL-0093,0.1388,Revisión humana,cambios del monto solicitado; uso de billetera digital; monto solicitado,GB mitigado v1.0.0
+SOL-0094,0.0782,Aprobar,—,GB mitigado v1.0.0
+SOL-0095,0.0453,Aprobar,—,GB mitigado v1.0.0
+SOL-0096,0.037,Aprobar,—,GB mitigado v1.0.0
+SOL-0097,0.0461,Aprobar,—,GB mitigado v1.0.0
+SOL-0098,0.1684,Revisión humana,cambios del monto solicitado; plazo; puntualidad en servicios básicos,GB mitigado v1.0.0
+SOL-0099,0.0678,Aprobar,—,GB mitigado v1.0.0
+SOL-0100,0.0848,Aprobar,—,GB mitigado v1.0.0
+SOL-0101,0.0428,Aprobar,—,GB mitigado v1.0.0
+SOL-0102,0.0538,Aprobar,—,GB mitigado v1.0.0
+SOL-0103,0.059,Aprobar,—,GB mitigado v1.0.0
+SOL-0104,0.4034,Rechazar,atrasos en pago de servicios básicos; reclamos en comercio electrónico; uso de billetera digital,GB mitigado v1.0.0
+SOL-0105,0.2247,Rechazar,uso de billetera digital; cambios del monto solicitado; antigüedad de la línea móvil,GB mitigado v1.0.0
+SOL-0106,0.1333,Revisión humana,monto solicitado; tiempo de llenado del formulario; historial en servicios básicos,GB mitigado v1.0.0
+SOL-0107,0.0719,Aprobar,—,GB mitigado v1.0.0
+SOL-0108,0.0362,Aprobar,—,GB mitigado v1.0.0
+SOL-0109,0.4779,Rechazar,reclamos en comercio electrónico; cambios del monto solicitado; uso de billetera digital,GB mitigado v1.0.0
+SOL-0110,0.1002,Aprobar,—,GB mitigado v1.0.0
+SOL-0111,0.1702,Revisión humana,reclamos en comercio electrónico; uso de billetera digital; puntualidad en servicios básicos,GB mitigado v1.0.0
+SOL-0112,0.0786,Aprobar,—,GB mitigado v1.0.0
+SOL-0113,0.17,Revisión humana,cambios del monto solicitado; plazo; uso de billetera digital,GB mitigado v1.0.0
+SOL-0114,0.1022,Aprobar,—,GB mitigado v1.0.0
+SOL-0115,0.3006,Rechazar,atrasos en pago de servicios básicos; reclamos en comercio electrónico; uso de billetera digital,GB mitigado v1.0.0
+SOL-0116,0.126,Revisión humana,tamaño de red social (opt-in); atrasos en pago de servicios básicos; historial en servicios básicos,GB mitigado v1.0.0
+SOL-0117,0.0686,Aprobar,—,GB mitigado v1.0.0
+SOL-0118,0.1668,Revisión humana,atrasos en pago de servicios básicos; reclamos en comercio electrónico; tasa de devoluciones,GB mitigado v1.0.0
+SOL-0119,0.344,Rechazar,cambios del monto solicitado; uso de billetera digital; tiempo de llenado del formulario,GB mitigado v1.0.0
+SOL-0120,0.1072,Aprobar,—,GB mitigado v1.0.0
+SOL-0121,0.2598,Rechazar,cambios del monto solicitado; antigüedad de cuenta en redes (opt-in); uso de billetera digital,GB mitigado v1.0.0
+SOL-0122,0.0922,Aprobar,—,GB mitigado v1.0.0
+SOL-0123,0.1081,Revisión humana,uso de billetera digital; atrasos en pago de servicios básicos; tasa de devoluciones,GB mitigado v1.0.0
+SOL-0124,0.2861,Rechazar,cambios del monto solicitado; reclamos en comercio electrónico; uso de billetera digital,GB mitigado v1.0.0
+SOL-0125,0.0667,Aprobar,—,GB mitigado v1.0.0
+SOL-0126,0.0436,Aprobar,—,GB mitigado v1.0.0
+SOL-0127,0.1345,Revisión humana,reclamos en comercio electrónico; cambios del monto solicitado; uso de billetera digital,GB mitigado v1.0.0
+SOL-0128,0.1091,Revisión humana,uso de billetera digital; tasa de devoluciones; puntualidad en servicios básicos,GB mitigado v1.0.0
+SOL-0129,0.237,Rechazar,cambios del monto solicitado; uso de billetera digital; antigüedad de cuenta en redes (opt-in),GB mitigado v1.0.0
+SOL-0130,0.3418,Rechazar,uso de billetera digital; plazo; tamaño de red social (opt-in),GB mitigado v1.0.0
+SOL-0131,0.0431,Aprobar,—,GB mitigado v1.0.0
+SOL-0132,0.1027,Aprobar,—,GB mitigado v1.0.0
+SOL-0133,0.0688,Aprobar,—,GB mitigado v1.0.0
+SOL-0134,0.1102,Revisión humana,uso de billetera digital; atrasos en pago de servicios básicos; antigüedad de cuenta en redes (opt-in),GB mitigado v1.0.0
+SOL-0135,0.058,Aprobar,—,GB mitigado v1.0.0
+SOL-0136,0.2216,Rechazar,uso de billetera digital; tasa de devoluciones; historial en servicios básicos,GB mitigado v1.0.0
+SOL-0137,0.1853,Rechazar,cambios del monto solicitado; tiempo de llenado del formulario; uso de billetera digital,GB mitigado v1.0.0
+SOL-0138,0.0482,Aprobar,—,GB mitigado v1.0.0
+SOL-0139,0.0879,Aprobar,—,GB mitigado v1.0.0
+SOL-0140,0.0276,Aprobar,—,GB mitigado v1.0.0
+SOL-0141,0.0855,Aprobar,—,GB mitigado v1.0.0
+SOL-0142,0.1298,Revisión humana,cambios del monto solicitado; uso de billetera digital; puntualidad en servicios básicos,GB mitigado v1.0.0
+SOL-0143,0.0234,Aprobar,—,GB mitigado v1.0.0
+SOL-0144,0.069,Aprobar,—,GB mitigado v1.0.0
+SOL-0145,0.0541,Aprobar,—,GB mitigado v1.0.0
+SOL-0146,0.0555,Aprobar,—,GB mitigado v1.0.0
+SOL-0147,0.1437,Revisión humana,cambios del monto solicitado; uso de billetera digital; puntualidad del plan móvil,GB mitigado v1.0.0
+SOL-0148,0.0843,Aprobar,—,GB mitigado v1.0.0
+SOL-0149,0.0898,Aprobar,—,GB mitigado v1.0.0
+SOL-0150,0.0325,Aprobar,—,GB mitigado v1.0.0
+SOL-0151,0.1335,Revisión humana,reclamos en comercio electrónico; uso de billetera digital; puntualidad en servicios básicos,GB mitigado v1.0.0
+SOL-0152,0.1279,Revisión humana,cambios del monto solicitado; uso de billetera digital; plazo,GB mitigado v1.0.0
+SOL-0153,0.0259,Aprobar,—,GB mitigado v1.0.0
+SOL-0154,0.0639,Aprobar,—,GB mitigado v1.0.0
+SOL-0155,0.0192,Aprobar,—,GB mitigado v1.0.0
+SOL-0156,0.0957,Aprobar,—,GB mitigado v1.0.0
+SOL-0157,0.4176,Rechazar,cambios del monto solicitado; reclamos en comercio electrónico; tiempo de llenado del formulario,GB mitigado v1.0.0
+SOL-0158,0.0379,Aprobar,—,GB mitigado v1.0.0
+SOL-0159,0.1068,Aprobar,—,GB mitigado v1.0.0
+SOL-0160,0.1131,Revisión humana,uso de billetera digital; reclamos en comercio electrónico; puntualidad del plan móvil,GB mitigado v1.0.0
+SOL-0161,0.1941,Rechazar,reclamos en comercio electrónico; cambios del monto solicitado; puntualidad en servicios básicos,GB mitigado v1.0.0
+SOL-0162,0.1379,Revisión humana,reclamos en comercio electrónico; uso de billetera digital; puntualidad en servicios básicos,GB mitigado v1.0.0
+SOL-0163,0.0272,Aprobar,—,GB mitigado v1.0.0
+SOL-0164,0.0252,Aprobar,—,GB mitigado v1.0.0
+SOL-0165,0.1276,Revisión humana,reclamos en comercio electrónico; uso de billetera digital; monto solicitado,GB mitigado v1.0.0
+SOL-0166,0.0224,Aprobar,—,GB mitigado v1.0.0
+SOL-0167,0.0194,Aprobar,—,GB mitigado v1.0.0
+SOL-0168,0.0127,Aprobar,—,GB mitigado v1.0.0
+SOL-0169,0.0159,Aprobar,—,GB mitigado v1.0.0
+SOL-0170,0.1948,Rechazar,atrasos en pago de servicios básicos; uso de billetera digital; tamaño de red social (opt-in),GB mitigado v1.0.0
+SOL-0171,0.0309,Aprobar,—,GB mitigado v1.0.0
+SOL-0172,0.06,Aprobar,—,GB mitigado v1.0.0
+SOL-0173,0.0757,Aprobar,—,GB mitigado v1.0.0
+SOL-0174,0.0233,Aprobar,—,GB mitigado v1.0.0
+SOL-0175,0.1553,Revisión humana,cambios del monto solicitado; monto solicitado; puntualidad en servicios básicos,GB mitigado v1.0.0
+SOL-0176,0.1358,Revisión humana,reclamos en comercio electrónico; plazo; historial en servicios básicos,GB mitigado v1.0.0
+SOL-0177,0.0887,Aprobar,—,GB mitigado v1.0.0
+SOL-0178,0.1073,Aprobar,—,GB mitigado v1.0.0
+SOL-0179,0.0498,Aprobar,—,GB mitigado v1.0.0
+SOL-0180,0.1197,Revisión humana,reclamos en comercio electrónico; uso de billetera digital; puntualidad del plan móvil,GB mitigado v1.0.0
+SOL-0181,0.037,Aprobar,—,GB mitigado v1.0.0
+SOL-0182,0.1313,Revisión humana,reclamos en comercio electrónico; uso de billetera digital; historial en servicios básicos,GB mitigado v1.0.0
+SOL-0183,0.0696,Aprobar,—,GB mitigado v1.0.0
+SOL-0184,0.4621,Rechazar,atrasos en pago de servicios básicos; cambios del monto solicitado; uso de billetera digital,GB mitigado v1.0.0
+SOL-0185,0.0418,Aprobar,—,GB mitigado v1.0.0
+SOL-0186,0.1562,Revisión humana,atrasos en pago de servicios básicos; puntualidad del plan móvil; puntualidad en servicios básicos,GB mitigado v1.0.0
+SOL-0187,0.1136,Revisión humana,cambios del monto solicitado; uso de billetera digital; antigüedad en billetera digital,GB mitigado v1.0.0
+SOL-0188,0.0874,Aprobar,—,GB mitigado v1.0.0
+SOL-0189,0.0395,Aprobar,—,GB mitigado v1.0.0
+SOL-0190,0.1128,Revisión humana,uso de billetera digital; tiempo de llenado del formulario; atrasos en pago de servicios básicos,GB mitigado v1.0.0
+SOL-0191,0.0721,Aprobar,—,GB mitigado v1.0.0
+SOL-0192,0.1132,Revisión humana,atrasos en pago de servicios básicos; uso de billetera digital; tiempo de llenado del formulario,GB mitigado v1.0.0
+SOL-0193,0.0181,Aprobar,—,GB mitigado v1.0.0
+SOL-0194,0.2247,Rechazar,cambios del monto solicitado; uso de billetera digital; monto solicitado,GB mitigado v1.0.0
+SOL-0195,0.0747,Aprobar,—,GB mitigado v1.0.0
+SOL-0196,0.0782,Aprobar,—,GB mitigado v1.0.0
+SOL-0197,0.0867,Aprobar,—,GB mitigado v1.0.0
+SOL-0198,0.0878,Aprobar,—,GB mitigado v1.0.0
+SOL-0199,0.0504,Aprobar,—,GB mitigado v1.0.0
+SOL-0200,0.1655,Revisión humana,reclamos en comercio electrónico; puntualidad en servicios básicos; puntualidad del plan móvil,GB mitigado v1.0.0
